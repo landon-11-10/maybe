@@ -35,6 +35,9 @@ gem "sentry-rails"
 gem "aws-sdk-s3", require: false
 gem "image_processing", ">= 1.2"
 
+# AI
+gem "ruby-openai"
+
 # Other
 gem "bcrypt", "~> 3.1"
 gem "faraday"
@@ -50,6 +53,7 @@ gem "redcarpet"
 gem "stripe"
 gem "intercom-rails"
 gem "holidays"
+gem "redcarpet"
 
 group :development, :test do
   gem "debug", platforms: %i[mri windows]
